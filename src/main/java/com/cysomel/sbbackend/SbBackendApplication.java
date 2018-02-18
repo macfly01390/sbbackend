@@ -16,6 +16,12 @@ public class SbBackendApplication {
         return "[sbbackend] Hey, i'm alive";
     }
 	
+    @RequestMapping("/bluetooth/devices")
+    @ResponseBody
+    String blueToothDevices() {
+        return "[sbbackend/bluetooth/devices] Testing BT devices.";
+    }    
+    
 	public static void main(String[] args) {
 		SpringApplication.run(SbBackendApplication.class, args);
 	}
