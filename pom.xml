@@ -84,7 +84,11 @@
       		<groupId>org.apache.camel</groupId>
       		<artifactId>camel-http4-starter</artifactId>
       		<version>${camel.version}</version>
-    	</dependency>		
+    	</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
